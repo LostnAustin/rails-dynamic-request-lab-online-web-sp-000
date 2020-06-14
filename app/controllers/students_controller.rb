@@ -7,5 +7,5 @@ class StudentsController < ApplicationController
     @students = Students.find(params[:id])
   end
 
-  
+
 end
